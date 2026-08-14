@@ -21,6 +21,22 @@ PRISM consists of the following main components:
 
 The system was developed to investigate whether a locally operated RAG workflow can improve the accuracy of LLM responses to domain-specific biomedical questions while reducing dependence on cloud-based LLM services.
 
+## Repository Contents
+
+This repository contains the materials used to reproduce the evaluation reported in the associated manuscript.
+
+- `data/evaluation_dataset.csv`  
+  Questions and reference answers used in the evaluation.
+
+- `data/generated_responses.csv`  
+  Responses generated under the RAG and non-RAG conditions and analyzed in the study.
+
+- `evaluation/`  
+  Code used to evaluate the generated responses and calculate the reported metrics.
+
+- `config/`  
+  Configuration information for the local LLM and RAG system used in the experiments.
+
 ## System Architecture
 
 The basic workflow is:
@@ -45,72 +61,46 @@ Local LLM
 Generated Response
 ```
 
+## Experimental Configuration
 
+The following configuration was used for the experiments reported in the manuscript:
 
-Detailed configuration information will be provided in this repository.
+- Hardware: [actual hardware]
+- Local LLM: [actual model]
+- LLM runtime: LM Studio [version]
+- RAG platform: Dify [version]
+- Embedding model: [actual model]
+- Retrieval backend: [actual backend]
+- Top-k: 20
+- Chunking strategy: [actual setting]
+- Inference parameters: [actual settings]
 
-## Requirements
-
-The PRISM implementation described in the manuscript uses:
-
-- LM Studio
-- Dify
-- A locally executable large language model
-- A local computer capable of running the selected model
-
-Hardware specifications, software versions, model information, and RAG parameters used in the study are provided in the sections below.
-
-## Installation
-
-Detailed installation instructions will be provided for:
-
-### 1. LM Studio
-
-Instructions will describe:
-
-- LM Studio installation
-- Model installation
-- Local inference configuration
-- Local API server configuration
-
-### 2. Dify
-
-Instructions will describe:
-
-- Dify installation
-- Knowledge-base creation
-- Connection to the local LLM
-- Retrieval configuration
-- RAG workflow configuration
-
-## RAG Configuration
-
-The following parameters used in the manuscript will be documented:
-
-- Embedding model
-- Vector database / retrieval backend
-- Chunking strategy
-- Retrieval method
-- Top-k
-- Prompt configuration
-- LLM model and inference parameters
+Additional configuration details are provided in the `config/` directory.
 
 ## Reproducing the Evaluation
 
-This repository will provide the materials and procedures necessary to reproduce the evaluation described in the manuscript, subject to applicable data-sharing and licensing restrictions.
+The evaluation reported in the manuscript can be reproduced using the materials provided in this repository.
 
-The evaluation compares:
+1. Obtain the evaluation questions and reference answers from `data/`.
+2. Obtain the RAG and non-RAG responses from `data/generated_responses.csv`.
+3. Run the evaluation scripts provided in `evaluation/`.
+4. Compare the resulting metrics with the values reported in the manuscript.
 
-- RAG-enabled generation
-- Generation without RAG
-
-using the same locally operated LLM.
+Detailed instructions and required Python dependencies are provided in the `evaluation/` directory.
 
 ## Data and Resources
 
-Publicly shareable materials required to reproduce the reported analyses will be provided through this repository or an appropriate public research-data repository.
+The evaluation dataset used in this study is provided in the `data/` directory.
 
-Any materials that cannot legally or ethically be redistributed will be clearly identified, together with instructions for obtaining the original resources where applicable.
+The publicly released materials include:
+
+- evaluation questions;
+- reference answers;
+- responses generated under the RAG condition;
+- responses generated under the non-RAG condition; and
+- the data required to reproduce the reported evaluation results.
+
+The evaluation code is provided in the `evaluation/` directory.
 
 ## Privacy and Security Considerations
 
