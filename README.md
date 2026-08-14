@@ -61,22 +61,6 @@ Local LLM
 Generated Response
 ```
 
-## Experimental Configuration
-
-The following configuration was used for the experiments reported in the manuscript:
-
-- Hardware: [actual hardware]
-- Local LLM: [actual model]
-- LLM runtime: LM Studio [version]
-- RAG platform: Dify [version]
-- Embedding model: [actual model]
-- Retrieval backend: [actual backend]
-- Top-k: 20
-- Chunking strategy: [actual setting]
-- Inference parameters: [actual settings]
-
-Additional configuration details are provided in the `config/` directory.
-
 ## Reproducing the Evaluation
 
 The evaluation reported in the manuscript can be reproduced using the materials provided in this repository.
