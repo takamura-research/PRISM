@@ -25,17 +25,17 @@ The system was developed to investigate whether a locally operated RAG workflow 
 
 This repository contains the materials used to reproduce the evaluation reported in the associated manuscript.
 
-- `data/evaluation_dataset.csv`  
-  Questions and reference answers used in the evaluation.
+- [`QUESTIONS.md`](QUESTIONS.md)  
+  The 30 questions used in the evaluation.
 
-- `data/generated_responses.csv`  
-  Responses generated under the RAG and non-RAG conditions and analyzed in the study.
+- [`evaluation_dataset.csv`](evaluation_dataset.csv)  
+  The evaluation dataset containing the questions, reference answers, and generated responses used in the study.
 
-- `evaluation/`  
-  Code used to evaluate the generated responses and calculate the reported metrics.
+- [`evaluation_results.csv`](evaluation_results.csv)  
+  The evaluation results used to derive the reported performance metrics.
 
-- `config/`  
-  Configuration information for the local LLM and RAG system used in the experiments.
+- [`evaluation.ipynb`](evaluation.ipynb)  
+  The Jupyter Notebook used to perform the evaluation and calculate the reported metrics.
 
 ## System Architecture
 
