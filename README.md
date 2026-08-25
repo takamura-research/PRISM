@@ -61,6 +61,44 @@ Local LLM
 Generated Response
 ```
 
+## LM Studio Installation
+
+PRISM uses **LM Studio** to run the large language model locally. LM Studio can be installed either using the graphical installer or Homebrew on macOS.
+
+### Option 1: Graphical installation
+
+1. Visit the official LM Studio download page:
+
+   **LM Studio:** https://lmstudio.ai/download
+
+2. Download the macOS version of LM Studio.
+
+3. Open the downloaded installer and install LM Studio.
+
+4. Launch LM Studio from the Applications folder.
+
+### Option 2: Installation using Homebrew
+
+If Homebrew is installed, LM Studio can be installed from Terminal using:
+
+```bash
+brew install --cask lm-studio
+```
+
+After installation, launch LM Studio from the Applications folder.
+
+To verify the installation through Homebrew, run:
+
+```bash
+brew list --cask | grep lm-studio
+```
+
+### System requirements
+
+For macOS, LM Studio supports Apple Silicon Macs. Please refer to the official LM Studio documentation for the latest system requirements:
+
+**https://lmstudio.ai/docs/app/system-requirements**
+
 ## Reproducing the Evaluation
 
 The evaluation reported in the manuscript can be reproduced using the materials provided in this repository.
