@@ -190,6 +190,23 @@ docker compose ps
 
 > **Note:** PRISM uses the self-hosted Dify Community Edition rather than Dify Cloud. All components required for the RAG workflow are therefore operated locally.
 
+## Knowledge Base Source Documents
+
+The following document was used as a source document in the PRISM
+knowledge base and for the evaluation reported in the manuscript.
+
+### KB01
+
+Umezawa A, et al. First-in-human clinical study of an embryonic
+stem cell product for urea cycle disorders.
+Stem Cell Research & Therapy. 2025;16:120.
+
+DOI: 10.1186/s13287-025-04162-3
+
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Evaluation questions: Q01–QXX
+
 ## Reproducing the Evaluation
 
 The evaluation reported in the manuscript can be reproduced using the materials provided in this repository.
