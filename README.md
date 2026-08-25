@@ -93,7 +93,7 @@ To verify the installation through Homebrew, run:
 brew list --cask | grep lm-studio
 ```
 
-> **Version used in this study:** The experiments reported in the manuscript were conducted using LM Studio version X.X.X.
+> **Version used in this study:** The experiments reported in the manuscript were conducted using LM Studio version 0.3.30.
 
 ### System requirements
 
