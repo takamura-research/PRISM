@@ -115,11 +115,11 @@ In LM Studio, search for and download the following model:
 
 PRISM uses a self-hosted standalone installation of **Dify** to construct and execute the RAG workflow locally.
 
-Dify runs locally using Docker containers and Docker Compose. On macOS, we recommend using **OrbStack** as the container runtime because it provides a lightweight Docker-compatible environment and supports Docker Compose.
+Dify runs locally using Docker containers and Docker Compose. On macOS, **OrbStack** is recommended as a lightweight Docker-compatible environment for running Dify.
 
 #### 3.1 Install OrbStack (recommended for macOS)
 
-OrbStack can be installed using either the graphical installer or Homebrew.
+OrbStack can be installed either using the graphical installer or Homebrew.
 
 **Option 1: Graphical installation**
 
@@ -127,7 +127,7 @@ Download OrbStack from the official website:
 
 https://orbstack.dev/
 
-Install OrbStack and launch the application.
+Install OrbStack and launch the application to complete the initial setup.
 
 **Option 2: Installation using Homebrew**
 
@@ -135,16 +135,16 @@ Install OrbStack and launch the application.
 brew install --cask orbstack
 ```
 
-After installation, launch OrbStack. Docker and Docker Compose commands should then be available from Terminal.
+After installation, launch OrbStack once to complete the initial setup.
 
-Verify the installation using:
+Verify that Docker and Docker Compose are available:
 
 ```bash
 docker --version
 docker compose version
 ```
 
-> **Note:** Docker Desktop or another Docker-compatible container runtime can also be used. OrbStack is recommended for macOS but is not required to run PRISM.
+> **Note:** OrbStack is recommended for macOS but is not required. Docker Desktop or another Docker-compatible container runtime can also be used to run Dify.
 
 ## Reproducing the Evaluation
 
