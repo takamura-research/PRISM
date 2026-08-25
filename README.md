@@ -101,6 +101,16 @@ For macOS, LM Studio supports Apple Silicon Macs. Please refer to the official L
 
 **https://lmstudio.ai/docs/app/system-requirements**
 
+### 2. Set Up the Local LLM
+
+PRISM uses Gemma 3 12B as the local large language model.
+
+In LM Studio, search for and download the following model:
+
+`lmstudio-community/gemma-3-12b-it-GGUF`
+
+> **Model used in this study:** `lmstudio-community/gemma-3-12b-it-GGUF`
+
 ## Reproducing the Evaluation
 
 The evaluation reported in the manuscript can be reproduced using the materials provided in this repository.
