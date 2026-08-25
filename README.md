@@ -99,6 +99,7 @@ For macOS, LM Studio supports Apple Silicon Macs. Please refer to the official L
 
 **https://lmstudio.ai/docs/app/system-requirements**
 
+
 ## Reproducing the Evaluation
 
 The evaluation reported in the manuscript can be reproduced using the materials provided in this repository.
