@@ -146,6 +146,50 @@ docker compose version
 
 > **Note:** OrbStack is recommended for macOS but is not required. Docker Desktop or another Docker-compatible container runtime can also be used to run Dify.
 
+#### 3.2 Install Dify
+
+PRISM uses the self-hosted **Dify Community Edition** for knowledge-base management, retrieval, and RAG-based prompting.
+
+Clone the official Dify repository:
+
+```bash
+git clone https://github.com/langgenius/dify.git
+```
+
+Move to the Docker configuration directory:
+
+```bash
+cd dify/docker
+```
+
+Create the environment configuration file from the provided example:
+
+```bash
+cp .env.example .env
+```
+
+Start Dify using Docker Compose:
+
+```bash
+docker compose up -d
+```
+
+The first startup may take several minutes because the required container images are downloaded automatically.
+
+After all containers have started, open the following address in a web browser:
+
+`http://localhost/install`
+
+Follow the on-screen instructions to create the administrator account and complete the initial setup.
+
+To verify that the Dify containers are running:
+
+```bash
+docker compose ps
+```
+
+> **Note:** PRISM uses the self-hosted Dify Community Edition rather than Dify Cloud. All components required for the RAG workflow are therefore operated locally.
+
 ## Reproducing the Evaluation
 
 The evaluation reported in the manuscript can be reproduced using the materials provided in this repository.
