@@ -93,12 +93,13 @@ To verify the installation through Homebrew, run:
 brew list --cask | grep lm-studio
 ```
 
+> **Version used in this study:** The experiments reported in the manuscript were conducted using LM Studio version X.X.X.
+
 ### System requirements
 
 For macOS, LM Studio supports Apple Silicon Macs. Please refer to the official LM Studio documentation for the latest system requirements:
 
 **https://lmstudio.ai/docs/app/system-requirements**
-
 
 ## Reproducing the Evaluation
 
