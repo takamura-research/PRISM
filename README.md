@@ -113,9 +113,7 @@ The original PDF is provided for reproducibility of the PRISM evaluation. Only t
 
 
 ## Evaluation Q&A Generation
-The question–answer (Q&A) pairs used for the evaluation of PRISM can be generated using the `ragas.ipynb` notebook provided in this repository.
-The notebook has been tested in Google Colab and enables users to generate evaluation Q&A pairs from the source research paper using Ragas.
-The `QUESTIONS.md` and `ANSWERS.md` files contain the 30 evaluation questions and their corresponding reference answers, respectively, that were used to calculate the evaluation metrics reported in the manuscript.
+The `ragas.ipynb` notebook provided in this repository enables users to generate evaluation question–answer (Q&A) pairs from source research papers using Ragas. The notebook has been tested in Google Colab. The `QUESTIONS.md` and `ANSWERS.md` files contain the 30 evaluation questions and their corresponding reference answers, respectively, that were used to calculate the evaluation metrics reported in the manuscript. Due to the stochastic nature of LLM-based generation, newly generated Q&A pairs may differ from those used in the manuscript.
 
 
 ## Q&A Datasets
