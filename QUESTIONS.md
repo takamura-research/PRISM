@@ -2,37 +2,36 @@
 
 This page provides the 30 questions used for the evaluation of PRISM.
 
-The same questions are reported in Appendix B of the associated manuscript.
 
 ## Questions
 
-1. What is the main objective of this study?
-2. What was the target body weight set for safe liver transplantation?
-3. What were the key safety findings observed in preclinical testing of ESC-derived HLCs?
-4. Through which route were HLCs administered in the clinical trial?
-5. How many neonates participated in the clinical trial?
-6. What clinical outcomes were achieved in all patients following HLC infusion?
-7. What was the most concerning complication observed after human HLC administration?
-8. What was the differentiation efficiency of HLCs?
-9. Was there any evidence of long-term retention of HLCs in the liver?
-10. What methods are planned to more accurately evaluate HLC function in the future?
-11. What was the therapeutic goal of the cell treatment used in this study?
-12. How many patients were enrolled in the clinical trial, and what disorders did they have?
-13. How was the administration of HLCs carried out?
-14. What animal models were used in the preclinical studies?
-15. Did all patients reach the target body weight?
-16. What major complications were observed following HLC treatment?
-17. What notable properties of HLCs were confirmed?
-18. How was the safety regarding tumorigenicity assessed?
-19. What immunosuppressive agents were used?
-20. What was the final conclusion of the study?
-21. What are the symptoms of urea cycle disorders (UCD)?
-22. Why is liver transplantation not immediately performed in neonates with UCD, despite being an effective treatment?
-23. How many neonates received HLC infusion therapy during the clinical trial?
-24. How was the safety of HLCs evaluated in preclinical trials?
-25. How were HLC infusions administered?
-26. What functions did HLCs demonstrate in vitro?
-27. What important body weight target was achieved by all patients prior to liver transplantation?
-28. How did patients’ ammonia levels change after HLC treatment?
-29. What aspects of long-term safety will be evaluated in follow-up studies on HLC therapy?
-30. What is the primary purpose of this study?
+1	What was the primary objective of the study?
+2	How many neonates with urea cycle disorders received HLC infusions in the clinical trial?
+3	What target weight was considered necessary for safer liver transplantation in this study?
+4	Which preclinical animal model was used to validate HLC efficacy?
+5	What estimated differentiation efficiency of the HLC population was used when adjusting administered cell numbers?
+6	Which embryonic stem cell (ESC) line was used to produce the master cell bank for HLC manufacturing?
+7	Why was the SEES2 cell line classified as a xenotransplantation product?
+8	What were the main clinical outcomes reported for the five neonates after HLC infusion and transplantation?
+9	Did the study have prior approval from a national regulatory agency before the first-in-human trial?
+10	How were cryopreserved HLCs prepared immediately before the clinical infusion?
+11	What type of catheter and insertion route were used to deliver HLCs to the liver?
+12	How were the two lumens of the double-lumen catheter used during the procedure?
+13	What was the administration protocol for 1 mL of HLCs at 1 × 10^7 cells/mL?
+14	How was the 5 × 10^7 cells/kg HLC dose administered to preserve liver function?
+15	What thresholds triggered temporary suspension and resumption of HLC administration based on portal blood flow velocity?
+16	What imaging step was performed to avoid systemic circulation of HLCs through an open ductus venosus and what was done if it was open?
+17	Under what conditions were the first and subsequent HLC infusions performed in relation to ventilation?
+18	Which immunosuppressive drugs were used in the clinical protocol?
+19	What were the results of the non-clinical toxicity study after a single portal vein injection of HLCs in nude rats?
+20	What were the tumorigenicity findings for HLCs and control cells in subcutaneous injections in nude mice?
+21	How many explanted livers showed thrombi/emboli on histopathologic examination, and which cases were they?
+22	What additional histologic finding accompanied the embolus in the fourth case?
+23	Was there evidence of differentiated cells other than hepatocytes and chondrocytes or clear teratoma formation?
+24	Were ischemic changes observed in the explanted livers?
+25	What did the contrast-enhanced CT scan at three months post-hepatocyte transplantation show in Case 4?
+26	Were hepatocyte-like cells (HLCs) detected in the explanted liver tissue?
+27	What functional role do the authors propose for HLCs based on the absence of detectable HLCs in explanted livers?
+28	What may have contributed to the disappearance of HLCs according to the authors?
+29	For how long did ammonia levels in all patients remain stable, and what was the reported range in days?
+30	When was the clinical trial protocol formally approved by the institutional review board and what was the reference number?
