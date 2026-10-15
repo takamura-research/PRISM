@@ -21,9 +21,6 @@ PRISM was constructed to investigate whether a locally operated RAG workflow can
 
 
 ## System Architecture
-
-## System Architecture
-
 For reproducibility, this repository presents a minimal configuration of PRISM using LM Studio.
 
 The basic workflow is:
@@ -113,7 +110,7 @@ The original PDF is provided for reproducibility of the PRISM evaluation. Only t
 
 
 ## Evaluation Q&A Generation
-The `ragas.ipynb` notebook provided in this repository enables users to generate evaluation question–answer (Q&A) pairs from source research papers using Ragas. The notebook has been tested in Google Colab. The `QUESTIONS.md` and `ANSWERS.md` files contain the 30 evaluation questions and their corresponding reference answers, respectively, that were used to calculate the evaluation metrics reported in the manuscript. Due to the stochastic nature of LLM-based generation, newly generated Q&A pairs may differ from those used in the manuscript.
+The `PRISM_QA_Generation_Colab.ipynb` notebook provided in this repository enables users to generate evaluation question–answer (Q&A) pairs from source research papers using Ragas. The notebook has been tested in Google Colab. The `QUESTIONS.md` and `ANSWERS.md` files contain the 30 evaluation questions and their corresponding reference answers, respectively, that were used to calculate the evaluation metrics reported in the manuscript. Due to the stochastic nature of LLM-based generation, newly generated Q&A pairs may differ from those used in the manuscript.
 
 
 ### LM Studio Conversation Export
