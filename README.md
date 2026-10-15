@@ -116,7 +116,7 @@ DOI: https://doi.org/10.1186/s13287-025-04162-3
 
 License: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
-The original PDF is provided for reproducibility of the PRISM evaluation. Only the filename has been changed; the document content remains unmodified.
+The original PDF is provided for reproducibility of the PRISM evaluation. Only the filename has been changed; the document content remains unmodified. Copyright © The Author(s) 2025.
 
 
 ## Privacy and Security Considerations
