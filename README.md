@@ -108,7 +108,7 @@ The `QUESTIONS.md` and `ANSWERS.md` files contain the 30 evaluation questions an
 
 ### KB01: Evaluation Source Document
 
-**File:** `KB01_Umezawa_2025.pdf`
+**File:** [KB01_Umezawa_2025.pdf](KB01_Umezawa_2025.pdf)
 
 Umezawa A, et al. First-in-human clinical study of an embryonic stem cell product for urea cycle disorders. *Stem Cell Research & Therapy*. 2025;16:120.
 
