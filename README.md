@@ -124,6 +124,16 @@ The notebook has been successfully tested using an LM Studio conversation JSON f
 Example input and output files are provided in the evaluation/examples/ directory for demonstration and reproducibility purposes. These example files are not the original evaluation results reported in the manuscript.
 
 
+### Ragas-Based Evaluation
+The `PRISM_Ragas_5Metrics_Evaluation_Colab.ipynb` notebook provides an evaluation workflow using Ragas to compare RAG and non-RAG responses.
+
+The notebook supports five evaluation metrics: Answer Correctness, Answer Relevancy, Faithfulness, Context Precision, and Context Recall. It uses the source research paper and reference answers to evaluate response quality.
+
+The notebook is designed to run in Google Colab and exports the evaluation results as CSV files.
+
+**Note:** Context Precision and Context Recall are calculated using evaluation-specific retrieved evidence and should not be interpreted as direct measurements of PRISM's retrieval performance.
+
+
 ## Q&A Datasets
 This repository provides two types of Q&A datasets for different purposes.
 
@@ -140,16 +150,6 @@ These files document the Q&A dataset used to calculate the evaluation results re
 These CSV files were generated on October 15, 2026, during an execution test of `PRISM_QA_Generation_Colab.ipynb` in Google Colab.
 
 **Important:** These example CSV files are not the Q&A dataset used in the PRISM manuscript and were not used to calculate the reported evaluation results. They are provided solely to demonstrate the Q&A generation workflow and output format.
-
-
-### Ragas-Based Evaluation
-The `PRISM_Ragas_5Metrics_Evaluation_Colab.ipynb` notebook provides an evaluation workflow using Ragas to compare RAG and non-RAG responses.
-
-The notebook supports five evaluation metrics: Answer Correctness, Answer Relevancy, Faithfulness, Context Precision, and Context Recall. It uses the source research paper and reference answers to evaluate response quality.
-
-The notebook is designed to run in Google Colab and exports the evaluation results as CSV files.
-
-**Note:** Context Precision and Context Recall are calculated using evaluation-specific retrieved evidence and should not be interpreted as direct measurements of PRISM's retrieval performance.
 
 
 ## Privacy and Security Considerations
