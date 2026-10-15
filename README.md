@@ -124,21 +124,6 @@ The notebook has been successfully tested using an LM Studio conversation JSON f
 Example input and output files are provided in the evaluation/examples/ directory for demonstration and reproducibility purposes. These example files are not the original evaluation results reported in the manuscript.
 
 
-### Ragas-Based Evaluation
-
-The [`PRISM_Ragas_5Metrics_Evaluation_Colab.ipynb`](evaluation/PRISM_Ragas_5Metrics_Evaluation_Colab.ipynb) notebook provides an evaluation workflow using Ragas to compare RAG and non-RAG responses.
-
-The notebook supports five evaluation metrics: Answer Correctness, Answer Relevancy, Faithfulness, Context Precision, and Context Recall. It uses the source research paper and reference answers to evaluate response quality.
-
-The notebook is designed to run in Google Colab and exports the evaluation results as CSV files.
-
-The input datasets used for the five-metric evaluation are provided in the [`evaluation/ragas_5metrics/`](evaluation/ragas_5metrics/) directory, including RAG-generated answers, non-RAG-generated answers, and reference answers. The source research paper is also available in this repository.
-
-Re-evaluation using the provided notebook produced results broadly consistent with those reported in the manuscript. Detailed information on the datasets and evaluation procedure is provided in the corresponding directory.
-
-**Note:** Context Precision and Context Recall are calculated using evaluation-specific retrieved evidence and should not be interpreted as direct measurements of PRISM's retrieval performance.
-
-
 ## Q&A Datasets
 This repository provides two types of Q&A datasets for different purposes.
 
@@ -167,6 +152,21 @@ The input CSV files are available in [`evaluation/bertscore/`](evaluation/bertsc
 Users can upload the CSV files to Google Colab, select the candidate and reference datasets, and calculate the evaluation metrics. The notebook exports both question-level results and summary statistics as CSV files.
 
 **Note:** Reproducing the exact numerical results reported in the manuscript requires using the same evaluation settings, model versions, and reference-answer datasets as those used in the original evaluation.
+
+
+## Ragas-Based Evaluation
+
+The [`PRISM_Ragas_5Metrics_Evaluation_Colab.ipynb`](evaluation/PRISM_Ragas_5Metrics_Evaluation_Colab.ipynb) notebook provides an evaluation workflow using Ragas to compare RAG and non-RAG responses.
+
+The notebook supports five evaluation metrics: Answer Correctness, Answer Relevancy, Faithfulness, Context Precision, and Context Recall. It uses the source research paper and reference answers to evaluate response quality.
+
+The notebook is designed to run in Google Colab and exports the evaluation results as CSV files.
+
+The input datasets used for the five-metric evaluation are provided in the [`evaluation/ragas_5metrics/`](evaluation/ragas_5metrics/) directory, including RAG-generated answers, non-RAG-generated answers, and reference answers. The source research paper is also available in this repository.
+
+Re-evaluation using the provided notebook produced results broadly consistent with those reported in the manuscript. Detailed information on the datasets and evaluation procedure is provided in the corresponding directory.
+
+**Note:** Context Precision and Context Recall are calculated using evaluation-specific retrieved evidence and should not be interpreted as direct measurements of PRISM's retrieval performance.
 
 
 ## Privacy and Security Considerations
