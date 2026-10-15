@@ -1,0 +1,31 @@
+﻿No,Question,Answer
+1,What was the primary objective of this study?,To assess the safety and efficacy of hepatocyte-like cell (HLC) infusion therapy derived from human embryonic stem cells as bridging therapy for neonatal-onset urea cycle disorders (UCD).
+2,How many neonates with UCD received HLC infusions in the clinical trial?,Five neonates.
+3,What target weight was considered necessary for safer liver transplantation in this study?,A target weight of over 6 kg.
+4,Which regulatory agency approved the first-in-human trial and how many patients were included in the initial cohort agreed with that agency?,The Pharmaceuticals and Medical Devices Agency (PMDA) approved the trial; the initial cohort was five patients.
+5,What clinical outcomes were reported for the neonates after HLC infusion and post-transplantation?,"All five neonates exceeded the target weight of 6 kg while maintaining metabolic stability and successfully bridging to transplantation; post-transplantation follow-up revealed stable growth, metabolic control, and no neurological complications."
+6,"For what median duration did ammonia levels remain stable in all patients, and what was the reported range in days?","Ammonia levels remained stable for a median duration of 1 year and 5 months, with a range of 136–882 days."
+7,At what median age did all the patients exceed the target body weight of 6 kg?,At a median age of 152 (138–204) days.
+8,In how many of the five cases did HLC therapy achieve stable management without hyperammonemia attacks requiring hemodiafiltration?,In 3 out of 5 cases.
+9,Which preclinical mouse model was used to examine the efficacy of HLCs?,SCID-OTCD mice.
+10,At what dose and by what route were HLCs administered to SCID-OTCD mice to assess efficacy?,HLCs were injected into the spleen of 20–30 days old SCID-OTCD mice at a concentration of 1 × 10^8 cells/kg (2 × 10^4 cells/μL).
+11,What effect did HLC administration have on survival in SCID-OTCD mice compared to controls?,"HLC administration increased the mean number of days of overall survival and post-administration survival by 1.29-fold and 2.05-fold, respectively."
+12,What were the results of the single-dose toxicology study in nude rats?,A single dose of 5.5 × 10^7 cells/kg was injected via the portal vein and toxicity was studied for 12 weeks; no changes suggestive of toxicity were observed.
+13,What were the tumorigenicity findings for HLCs and control cells in subcutaneous injection studies?,"HLCs had no tumorigenic potential at 16 weeks after a single dose of 1 × 10^7 cells was subcutaneously injected into nude mice whereas HeLa S3 cells formed tumors in all cases; injection of undifferentiated ESCs at ratios of 1%, 10%, or 100% to the number of HLCs all formed teratomas."
+14,Which embryonic stem cell line was used to produce the master cell bank for HLC manufacturing?,The ESC cell line SEES2.
+15,Why is the SEES2 cell line classified as a xenotransplantation product?,Because it has undergone ex-vivo exposure with mouse embryonic fibroblasts.
+16,What catheter and route were used to inject HLCs into patients?,"A double-lumen catheter (18G, Medicut LCV-UK) inserted into the left portal vein via the umbilical vein was used to inject HLCs."
+17,How were cryopreserved HLCs prepared for the clinical study in terms of suspension medium and cell density?,"They were thawed, washed, and re-suspended in saline with 5% human albumin at a density of 1 × 10^7 cells/mL."
+18,What was the administration protocol for 1 mL of HLCs at 1 × 10^7 cells/mL?,"1 mL was administered over 1–5 min, followed by a 2 to 10-min dosing pause."
+19,What portal pressure and blood flow criteria had to be met before administering the second HLC dose?,"Portal pressure had to be within 1.25 times the value before the first dose, and portal blood flow velocity had to be at least 0.75 times higher."
+20,How was portal blood flow monitored and what actions were taken if velocity decreased during administration?,"Portal blood flow was monitored using color Doppler ultrasonography; if velocity decreased by 50% or greater from pre-administration the administration was suspended, measurements were taken at 10-min intervals (± 3 min), and administration was resumed when the decrease was 25% or less."
+21,What measures were taken to prevent systemic circulation of HLCs through the ductus venosus?,"Portal venography was performed to check patency of the ductus venosus, and if the ductus arantius was open, it was closed before injection."
+22,Which immunosuppressive drugs were used in the clinical protocol?,Tacrolimus and prednisolone were used as immunosuppressants.
+23,What potential complication did the authors highlight as requiring careful monitoring despite promising results?,Thrombus formation.
+24,How many cases showed thrombi/emboli on histopathologic examination of the explanted liver?,Thrombi/emboli were revealed in two cases (P3 and P4).
+25,Was clear teratoma formation observed in the explanted livers?,No clear teratoma formation was observed.
+26,What was observed about detection of HLCs in the explanted liver tissue?,"Examination revealed no detectable HLCs, suggesting limited engraftment duration."
+27,What did the contrast-enhanced CT scan at three months post-hepatocyte transplantation show in Case 4?,The CT scan showed luminal narrowing indicative of an embolism.
+28,What additional finding accompanied the embolus in the central portal vein in the fourth case?,The embolus in the central portal vein was accompanied by chondrogenesis.
+29,Why did the researchers initiate a follow-up study and what is it designed to monitor?,"They initiated it to systematically assess the tumorigenic potential of ESC-derived HLCs; it is designed to monitor patients over an extended period to detect delayed adverse events, including tumor formation."
+30,What did the clinical trial show about the effectiveness of ESC-derived HLCs compared to hepatocytes from surplus liver?,The clinical trial showed that ESC-derived HLCs are as effective as hepatocytes derived from surplus liver.
