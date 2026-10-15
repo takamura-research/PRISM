@@ -13,7 +13,7 @@ The source research paper (`KB01_Umezawa_2025.pdf`) is available in the root dir
 
 
 ## Evaluation Procedure
-The datasets can be evaluated using [`PRISM_Ragas_5Metrics_Evaluation_Colab.ipynb`](../PRISM_Ragas_5Metrics_Evaluation_Colab.ipynb).
+The datasets can be evaluated using [PRISM_Ragas_5Metrics_Evaluation_Colab.ipynb](../PRISM_Ragas_5Metrics_Evaluation_Colab.ipynb).
 
 The notebook accepts the source research paper, RAG-generated answers, non-RAG-generated answers, and an optional reference-answer CSV file.
 
