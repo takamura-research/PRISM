@@ -35,8 +35,7 @@ This page provides the 30 questions used for the evaluation of PRISM.
 
 15	What thresholds triggered temporary suspension and resumption of HLC administration based on portal blood flow velocity?
 
-16	What imaging step was performed to avoid systemic circulation of HLCs through an open ductus venosus and what was done if 
-it was open?
+16	What imaging step was performed to avoid systemic circulation of HLCs through an open ductus venosus and what was done if it was open?
 
 17	Under what conditions were the first and subsequent HLC infusions performed in relation to ventilation?
 
