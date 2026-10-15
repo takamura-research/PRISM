@@ -131,6 +131,8 @@ The notebook supports five evaluation metrics: Answer Correctness, Answer Releva
 
 The notebook is designed to run in Google Colab and exports the evaluation results as CSV files.
 
+The input datasets used for the five-metric evaluation are provided in the [`evaluation/ragas_5metrics/`](evaluation/ragas_5metrics/) directory, including RAG-generated answers, non-RAG-generated answers, and reference answers. The source research paper is also available in this repository.
+
 **Note:** Context Precision and Context Recall are calculated using evaluation-specific retrieved evidence and should not be interpreted as direct measurements of PRISM's retrieval performance.
 
 
