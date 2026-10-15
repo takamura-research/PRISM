@@ -6,7 +6,6 @@ This page provides the 30 questions used for the evaluation of PRISM.
 ## Questions
 
 1	What was the primary objective of the study?
-
 2	How many neonates with urea cycle disorders received HLC infusions in the clinical trial?
 
 3	What target weight was considered necessary for safer liver transplantation in this study?
