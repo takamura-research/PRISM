@@ -169,6 +169,93 @@ Re-evaluation using the provided notebook produced results broadly consistent wi
 **Note:** Context Precision and Context Recall are calculated using evaluation-specific retrieved evidence and should not be interpreted as direct measurements of PRISM's retrieval performance.
 
 
+## Automated Evaluation with LM Studio
+
+In addition to the Google Colab notebooks, PRISM provides a Python-based automated evaluation pipeline (`pipeline_structured.py`) for local large language models (LLMs) running in LM Studio.
+
+This pipeline is implemented as an additional functionality of the PRISM framework to automate the evaluation of local LLM responses. By running the script in a separate terminal, users can interact with local LLMs through the standard LM Studio GUI while the pipeline monitors conversations and evaluates eligible responses without modifying the interface or inference workflow.
+
+### Evaluation Workflow
+
+The pipeline monitors LM Studio conversation files and detects newly completed responses. When a source research paper (PDF) is provided and the local LLM generates a structured Q&A table, the pipeline automatically performs the following operations:
+
+1. **Conversation extraction:** Extracts questions, local LLM responses, and relevant conversation history from LM Studio.
+2. **Reference answer generation:** Submits the conversation history and source PDF to configured cloud-based LLMs (ChatGPT, Claude, and Gemini) to generate reference responses.
+3. **BERTScore evaluation:** Calculates BERTScore (F1) between local LLM answers and their corresponding cloud-generated reference answers.
+4. **Optional Ragas evaluation:** Calculates Answer Relevancy and Answer Correctness, and additionally evaluates Faithfulness when retrieved contexts are available.
+5. **Result export:** Saves model responses, evaluation metrics, and processing information to a CSV file.
+
+BERTScore is calculated using only the answer fields, with questions aligned by their corresponding identifiers.
+
+### Execution
+
+Start the evaluation pipeline in a terminal:
+
+```bash
+python3 pipeline_structured.py
+```
+
+To enable additional Ragas evaluation:
+
+```bash
+python3 pipeline_structured.py --ragas
+```
+
+Keep the terminal process running while interacting with the local LLM through the LM Studio GUI. The pipeline automatically detects and evaluates eligible responses generated after monitoring begins.
+
+By default, existing conversations are not evaluated at startup. The `--process-existing` option can be used to include existing conversation files.
+
+### Requirements
+
+- Python 3.10 or later
+- LM Studio with a configured local LLM
+- Required Python dependencies
+- API keys for the cloud-based LLM providers being used
+- A locally cached BERTScore model
+- A source research paper in PDF format
+- Local LLM responses formatted as numbered Markdown tables with `No`, `Question`, and `Answer` columns
+
+The default BERTScore configuration uses `bert-base-multilingual-cased` with nine layers. The model must be available locally because the pipeline enables Hugging Face offline mode during BERTScore evaluation.
+
+### Output
+
+Evaluation results are saved to `results/evaluation.csv` by default.
+
+The output includes:
+
+- Local LLM responses and cloud-generated reference responses
+- BERTScore (F1) for each available cloud reference model and their mean
+- Optional Ragas evaluation metrics
+- Evaluated question counts and conversation metadata
+- Processing status and error information
+
+### Limitations and Considerations
+
+The pipeline is designed for structured, document-based Q&A evaluation rather than unrestricted conversational assessment.
+
+- **Input requirements:** Evaluation requires an accessible source PDF and a correctly formatted Q&A table.
+- **Reference availability:** Cloud-based evaluation depends on configured API keys and successful API responses.
+- **BERTScore dependencies:** The specified BERTScore model must be cached locally before evaluation.
+- **Ragas evaluation:** Ragas metrics are optional and require additional API calls. Faithfulness is calculated only when retrieved contexts are available.
+- **Conversation monitoring:** The pipeline processes eligible completed responses detected through conversation file updates and does not guarantee independent evaluation of every historical conversation turn.
+- **API costs:** Cloud-based reference generation and optional Ragas evaluation may incur API usage charges.
+- **Evaluation reproducibility:** Numerical results depend on the local and cloud LLMs, reference responses, model configurations, and evaluation settings.
+
+### Privacy Considerations and Future Development
+
+The current implementation relies on external LLM APIs (OpenAI, Anthropic, and Google) for reference answer generation. Consequently, source documents and conversation histories are transmitted to external service providers when the corresponding APIs are used. Optional Ragas evaluation also involves external API calls.
+
+Therefore, although the response generation process can be performed locally, **the current evaluation pipeline does not provide a fully local, privacy-preserving environment**. It should not be used with confidential or sensitive information unless external data transmission is explicitly permitted and appropriate data protection measures are in place.
+
+The primary objective of this implementation is to demonstrate **the feasibility of automating the evaluation process as an additional functionality of PRISM**, rather than to establish a fully privacy-preserving evaluation system.
+
+Future development will focus on integrating a dedicated local LLM-based evaluation system to replace external API-dependent reference generation and evaluation. This approach is intended to enable both response generation and evaluation to be performed entirely within a local computing environment, without transmitting evaluation data to external LLM providers.
+
+The present implementation therefore serves as an initial step toward incorporating automated evaluation capabilities into the PRISM framework while identifying the requirements for a fully local, privacy-preserving evaluation architecture.
+
+**Note:** This pipeline is provided as an additional evaluation utility for PRISM and is not intended to reproduce the exact evaluation results reported in the manuscript.
+
+
 ## Privacy and Security Considerations
 PRISM was configured to perform LLM inference and RAG processing locally in the study described in the manuscript. This approach can reduce the need to transmit biomedical content to externally hosted LLM APIs.
 
