@@ -107,7 +107,6 @@ The `QUESTIONS.md` and `ANSWERS.md` files contain the 30 evaluation questions an
 
 
 ### KB01: Evaluation Source Document
-
 **File:** [KB01_Umezawa_2025.pdf](KB01_Umezawa_2025.pdf)
 
 Umezawa A, et al. First-in-human clinical study of an embryonic stem cell product for urea cycle disorders. *Stem Cell Research & Therapy*. 2025;16:120.
@@ -117,6 +116,14 @@ DOI: https://doi.org/10.1186/s13287-025-04162-3
 License: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
 The original PDF is provided for reproducibility of the PRISM evaluation. Only the filename has been changed; the document content remains unmodified. Copyright © The Author(s) 2025.
+
+
+### Example Q&A Generation Outputs
+Example CSV files generated during a Google Colab execution test of `PRISM_QA_Generation_Colab.ipynb` on October 15, 2026, are available in [`examples/qa_generation_2026-10-15/`](examples/qa_generation_2026-10-15/).
+
+These files demonstrate the Q&A generation workflow and its output format.
+
+**Note:** These example outputs are independent of the Q&A dataset used in the PRISM manuscript. The evaluation questions and answers reported in the paper are documented in [`QUESTIONS.md`](QUESTIONS.md) and [`ANSWERS.md`](ANSWERS.md).
 
 
 ## Privacy and Security Considerations
