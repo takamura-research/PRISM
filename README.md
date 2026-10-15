@@ -116,6 +116,12 @@ The original PDF is provided for reproducibility of the PRISM evaluation. Only t
 The `ragas.ipynb` notebook provided in this repository enables users to generate evaluation question–answer (Q&A) pairs from source research papers using Ragas. The notebook has been tested in Google Colab. The `QUESTIONS.md` and `ANSWERS.md` files contain the 30 evaluation questions and their corresponding reference answers, respectively, that were used to calculate the evaluation metrics reported in the manuscript. Due to the stochastic nature of LLM-based generation, newly generated Q&A pairs may differ from those used in the manuscript.
 
 
+### LM Studio Conversation Export
+The `PRISM_LMStudio_JSON_to_CSV.ipynb` notebook converts LM Studio conversation history exported in JSON format into a structured CSV file containing question–answer pairs.
+
+The output CSV includes three columns: `No`, `Question`, and `Answer`. Conversations that cannot be reliably parsed are saved separately for manual review.
+
+
 ## Q&A Datasets
 This repository provides two types of Q&A datasets for different purposes.
 
