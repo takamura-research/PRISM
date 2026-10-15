@@ -106,14 +106,17 @@ The notebook has been tested in Google Colab and enables users to generate evalu
 The `QUESTIONS.md` and `ANSWERS.md` files contain the 30 evaluation questions and their corresponding reference answers, respectively, that were used to calculate the evaluation metrics reported in the manuscript.
 
 
-### KB01
-Umezawa A, et al. First-in-human clinical study of an embryonic
-stem cell product for urea cycle disorders.
-Stem Cell Research & Therapy. 2025;16:120.
+### KB01: Evaluation Source Document
 
-DOI: 10.1186/s13287-025-04162-3
+**File:** `KB01_Umezawa_2025.pdf`
 
-License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+Umezawa A, et al. First-in-human clinical study of an embryonic stem cell product for urea cycle disorders. *Stem Cell Research & Therapy*. 2025;16:120.
+
+DOI: https://doi.org/10.1186/s13287-025-04162-3
+
+License: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+
+The original PDF is provided for reproducibility of the PRISM evaluation. Only the filename has been changed; the document content remains unmodified.
 
 
 ## Privacy and Security Considerations
