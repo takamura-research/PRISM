@@ -15,3 +15,5 @@ The primary metrics reported in the manuscript were Faithfulness and Answer Corr
 **Important methodological note:** The same evaluation-specific retrieved contexts were used for both RAG and non-RAG responses to provide a common basis for assessment. The non-RAG configuration generated its answers without access to the source PDF. Context Precision and Context Recall therefore should not be interpreted as direct comparisons of retrieval performance between the two configurations.
 
 These files document the evaluation results reported in the manuscript and are distinct from the example outputs generated during notebook testing.
+
+The evaluation was performed using Ragas 0.2.15, with `gpt-4o-mini` as the evaluator LLM (temperature = 0) and `text-embedding-3-small` as the embedding model. The evaluation procedure and configuration are documented in `PRISM_Ragas_5Metrics_Evaluation_Colab.ipynb`.
