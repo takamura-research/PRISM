@@ -4,6 +4,9 @@
 
 PRISM is a locally operated retrieval-augmented generation (RAG) system designed to support the use of domain-specific biomedical knowledge with large language models (LLMs).
 
+This repository provides the essential configurations, implementation procedures, and resources required to reproduce the minimal functional configuration of the PRISM system described in our manuscript.
+
+
 The system integrates **LM Studio** for local LLM inference with **Dify** for knowledge-base management and RAG workflow construction. This repository provides the configuration details, procedures, and resources required to reproduce the PRISM system described in our manuscript.
 
 > **Privacy and security notice:**  
