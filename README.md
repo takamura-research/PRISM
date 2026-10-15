@@ -117,9 +117,11 @@ The `ragas.ipynb` notebook provided in this repository enables users to generate
 
 
 ### LM Studio Conversation Export
-The `PRISM_LMStudio_JSON_to_CSV.ipynb` notebook converts LM Studio conversation history exported in JSON format into a structured CSV file containing question–answer pairs.
+The PRISM_LMStudio_JSON_to_CSV.ipynb notebook converts LM Studio conversation history exported in JSON format into a structured CSV file with three columns: No, Question, and Answer.
 
-The output CSV includes three columns: `No`, `Question`, and `Answer`. Conversations that cannot be reliably parsed are saved separately for manual review.
+The notebook has been successfully tested using an LM Studio conversation JSON file, confirming that the generated responses can be extracted and converted into the specified CSV format.
+
+Example input and output files are provided in the evaluation/examples/ directory for demonstration and reproducibility purposes. These example files are not the original evaluation results reported in the manuscript.
 
 
 ## Q&A Datasets
