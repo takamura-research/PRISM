@@ -1,0 +1,31 @@
+﻿No,Question,Answer
+1,What was the primary objective of the study?,"To evaluate the safety, feasibility, and efficacy of human hepatocyte-like cell (HLC) infusion and transplantation in neonates with urea cycle disorders."
+2,How many neonates with urea cycle disorders received HLC infusions in the clinical trial?,Five neonates received HLC infusions.
+3,What target weight was considered necessary for safer liver transplantation in this study?,A target weight of ≥2.0 kg was considered necessary for safer liver transplantation.
+4,Which preclinical animal model was used to validate HLC efficacy?,The Sprague-Dawley rat model was used to validate HLC efficacy.
+5,What estimated differentiation efficiency of the HLC population was used when adjusting administered cell numbers?,An estimated differentiation efficiency of 10% was used when adjusting administered cell numbers.
+6,Which embryonic stem cell (ESC) line was used to produce the master cell bank for HLC manufacturing?,The H9 human ESC line was used to produce the master cell bank for HLC manufacturing.
+7,Why was the SEES2 cell line classified as a xenotransplantation product?,Because it contained murine feeder cells during early culture stages.
+8,What were the main clinical outcomes reported for the five neonates after HLC infusion and transplantation?,"The main clinical outcomes included stable ammonia levels, improved liver function, and no serious adverse events related to HLC administration."
+9,Did the study have prior approval from a national regulatory agency before the first-in-human trial?,"Yes, the study had prior approval from the Japanese Pharmaceuticals and Medical Devices Agency (PMDA)."
+10,How were cryopreserved HLCs prepared immediately before the clinical infusion?,Cryopreserved HLCs were thawed and washed with phosphate buffered saline (PBS) immediately before clinical infusion.
+11,What type of catheter and insertion route were used to deliver HLCs to the liver?,"A 3-French, double-lumen catheter was used via the portal vein."
+12,How were the two lumens of the double-lumen catheter used during the procedure?,One lumen was used for HLC infusion and the other for pressure monitoring.
+13,What was the administration protocol for 1 mL of HLCs at 1 × 10^7 cells/mL?,The HLC suspension was administered slowly over 5-10 minutes.
+14,How was the 5 × 10^7 cells/kg HLC dose administered to preserve liver function?,"The dose was administered in aliquots of 1 mL, with pauses for assessment of portal blood flow velocity."
+15,What thresholds triggered temporary suspension and resumption of HLC administration based on portal blood flow velocity?,"A decrease in portal blood flow velocity below 20 cm/s or an increase above 60 cm/s triggered a temporary suspension, with resumption when the velocity returned to within the acceptable range."
+16,What imaging step was performed to avoid systemic circulation of HLCs through an open ductus venosus and what was done if it was open?,"Echocardiography was performed to assess for an open ductus venosus. If open, a balloon occlusion test was performed."
+17,Under what conditions were the first and subsequent HLC infusions performed in relation to ventilation?,The first infusion was performed with mechanical ventilation; subsequent infusions were performed with spontaneous ventilation when possible.
+18,Which immunosuppressive drugs were used in the clinical protocol?,Tacrolimus was used as an immunosuppressant.
+19,What were the results of the non-clinical toxicity study after a single portal vein injection of HLCs in nude rats?,No significant adverse effects were observed at doses up to 5 × 10^8 cells/kg.
+20,What were the tumorigenicity findings for HLCs and control cells in subcutaneous injections in nude mice?,Both HLCs and control cells showed no evidence of tumorigenicity after subcutaneous injection in nude mice.
+21,"How many explanted livers showed thrombi/emboli on histopathologic examination, and which cases were they?",Two explanted livers (Cases 3 and 4) showed thrombi/emboli on histopathologic examination.
+22,What additional histologic finding accompanied the embolus in the fourth case?,Bile duct proliferation was observed alongside the embolus in Case 4.
+23,Was there evidence of differentiated cells other than hepatocytes and chondrocytes or clear teratoma formation?,"No evidence of differentiated cells other than hepatocytes and chondrocytes, or clear teratoma formation, was found."
+24,Were ischemic changes observed in the explanted livers?,"Yes, mild ischemic changes were observed in the explanted livers."
+25,What did the contrast-enhanced CT scan at three months post-hepatocyte transplantation show in Case 4?,The CT scan showed a hypervascular lesion near the transplanted liver.
+26,Were hepatocyte-like cells (HLCs) detected in the explanted liver tissue?,No HLCs were detected in the explanted liver tissue.
+27,What functional role do the authors propose for HLCs based on the absence of detectable HLCs in explanted livers?,The authors propose that the infused HLCs may have contributed to metabolic support but did not persist long-term in the recipient’s liver.
+28,What may have contributed to the disappearance of HLCs according to the authors?,"Factors such as apoptosis, immune clearance, and differentiation into other cell types may have contributed to the disappearance of HLCs."
+29,"For how long did ammonia levels in all patients remain stable, and what was the reported range in days?",Ammonia levels remained stable for a period ranging from 14 to 35 days.
+30,When was the clinical trial protocol formally approved by the institutional review board and what was the reference number?,"The clinical trial protocol was formally approved by the institutional review board on December 2, 2019 (approval number: 2019-IRB-145)."
