@@ -100,6 +100,18 @@ The following document was used as a source document in the PRISM
 knowledge base and for the evaluation reported in the manuscript.
 
 
+### KB01: Evaluation Source Document
+**File:** [KB01_Umezawa_2025.pdf](KB01_Umezawa_2025.pdf)
+
+Umezawa A, et al. First-in-human clinical study of an embryonic stem cell product for urea cycle disorders. *Stem Cell Research & Therapy*. 2025;16:120.
+
+DOI: https://doi.org/10.1186/s13287-025-04162-3
+
+License: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+
+The original PDF is provided for reproducibility of the PRISM evaluation. Only the filename has been changed; the document content remains unmodified. Copyright © The Author(s) 2025.
+
+
 ## Evaluation Q&A Generation
 The question–answer (Q&A) pairs used for the evaluation of PRISM can be generated using the `ragas.ipynb` notebook provided in this repository.
 The notebook has been tested in Google Colab and enables users to generate evaluation Q&A pairs from the source research paper using Ragas.
@@ -122,26 +134,6 @@ These files document the Q&A dataset used to calculate the evaluation results re
 These CSV files were generated on October 15, 2026, during an execution test of `PRISM_QA_Generation_Colab.ipynb` in Google Colab.
 
 **Important:** These example CSV files are not the Q&A dataset used in the PRISM manuscript and were not used to calculate the reported evaluation results. They are provided solely to demonstrate the Q&A generation workflow and output format.
-
-
-### KB01: Evaluation Source Document
-**File:** [KB01_Umezawa_2025.pdf](KB01_Umezawa_2025.pdf)
-
-Umezawa A, et al. First-in-human clinical study of an embryonic stem cell product for urea cycle disorders. *Stem Cell Research & Therapy*. 2025;16:120.
-
-DOI: https://doi.org/10.1186/s13287-025-04162-3
-
-License: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
-
-The original PDF is provided for reproducibility of the PRISM evaluation. Only the filename has been changed; the document content remains unmodified. Copyright © The Author(s) 2025.
-
-
-### Example Q&A Generation Outputs
-Example CSV files generated during a Google Colab execution test of `PRISM_QA_Generation_Colab.ipynb` on October 15, 2026, are available in [`examples/qa_generation_2026-10-15/`](examples/qa_generation_2026-10-15/).
-
-These files demonstrate the Q&A generation workflow and its output format.
-
-**Note:** These example outputs are independent of the Q&A dataset used in the PRISM manuscript. The evaluation questions and answers reported in the paper are documented in [`QUESTIONS.md`](QUESTIONS.md) and [`ANSWERS.md`](ANSWERS.md).
 
 
 ## Privacy and Security Considerations
